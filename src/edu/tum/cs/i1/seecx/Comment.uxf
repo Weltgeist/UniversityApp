@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>162</x>
+      <y>144</y>
+      <w>189</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>/Interaction/
+--
++initiator:Person
+--
+/+printInteraction():void/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>9</x>
+      <y>342</y>
+      <w>189</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Comment
+--
+-text: String
+--
++printInteraction():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>342</y>
+      <w>189</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Like
+--
+
+--
++printInteraction():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>90</x>
+      <y>207</y>
+      <w>171</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;170.0;110.0;10.0;110.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>252</x>
+      <y>207</y>
+      <w>99</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0;90.0;110.0;90.0;150.0</additional_attributes>
+  </element>
+</diagram>
